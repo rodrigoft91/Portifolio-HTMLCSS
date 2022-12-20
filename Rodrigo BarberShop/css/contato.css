@@ -1,0 +1,271 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+
+    background: url(../imagens/bg-topo.png);
+    padding: 20px;
+
+}
+
+.caixa {
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover {
+
+    color: #FFFFFF;
+
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 10px;
+
+
+}
+
+
+.formulario {
+
+    margin: 30px auto;
+    width: 940px;
+
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: bold;
+
+
+}
+
+.formulario-input {
+
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid rgb(150, 155, 153);
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.formulario-input:hover {
+
+    border: 3px solid rgb(48, 151, 192);
+
+}
+
+
+.checkbox {
+
+    margin: 20px 0;
+}
+
+.botao-enviar {
+
+    width: 50%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(48, 151, 192);
+    border: 3px solid transparent;
+    color: #FFFFFF;
+
+}
+
+.botao-enviar:hover {
+
+    background-color: rgb(25, 79, 100);
+    opacity: 0.;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.titulo-funcionamento{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.tabela-funcionamento{
+
+    width: 940px;
+    margin: 30px auto;
+}
+
+table{
+
+    margin: 10px auto;
+}
+
+thead{
+
+    background: #BBBBBB;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 1.3em;
+
+}
+
+td, th{
+
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 1.1em;
+
+}
+
+footer {
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 15px 0;
+
+}
+
+.copyright {
+
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 480px){
+
+    table, .caixa, .formulario, .tabela-funcionamento{
+
+        width: auto;
+    }
+
+    nav{
+
+        position: static;
+        margin: 15px 0;
+
+    }
+
+    h1{
+
+        text-align: center;
+    }
+
+  
+
+    .formulario-input{
+
+        width: 70%;
+
+    }
+
+    form label{
+
+        font-size: 1em;
+        
+    }
+
+    fieldset legend{
+        font-size: 1em;
+        margin: 15px 0;
+    }    
+
+    .botao-enviar{
+
+        width: 90%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 912px){
+
+    table, .caixa, .formulario, .tabela-funcionamento{
+
+        width: auto;
+    }
+
+    nav{
+
+        position: static;
+        margin: 15px 0 0;
+        text-align: center;
+ 
+}
+
+    h1{
+
+        text-align: center;
+    }
+
+    .formulario{
+
+        margin: 20px 0 0 20px;
+        font-size: 1em;
+    }
+
+
+    .formulario-input{
+
+        width: 70%;
+
+    }
+
+    form label{
+
+        font-size: 1em;
+        
+    }
+
+    fieldset legend{
+        font-size: 1em;
+        margin: 15px 0;
+    }    
+
+    .botao-enviar{
+
+        width: 70%;
+    }
+
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <title>Barbearia Alura - Contato</title>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="caixa">
+
+            <h1>
+               
+                    <a href="index.html"><img src="imagens/logo.png" alt="logo da pagina"></a>
+                
+            </h1>
+
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <form class="formulario">
+
+            <fieldset>
+                <label for="nome">Nome:</label>
+                <input type="text" name="" id="nome" class="formulario-input" placeholder="Digite seu nome completo"
+                    required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="formulario-input" placeholder="Digite o seu melhor E-mail"
+                    required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="formulario-input" placeholder="(xx) xxxxx-xxxx" required>
+            </fieldset>
+
+            <label for="mensagem">Digite sua mensagem:</label>
+            <textarea name="" id="mensagem" cols="70" rows="10" class="formulario-input"></textarea>
+
+
+            <fieldset>
+                <legend>Onde deseja receber as nossas informações?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+
+                <label for="radio-sms"><input type="radio" name="contato" value="sms" id="radio-sms">SMS</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked>Whatsapp</label>
+
+            </fieldset>
+
+            <label for="enviar-email"><input type="checkbox" id="enviar-email" class="checkbox" checked> Deseja receber
+                as nossas novidades por E-mail?</label>
+
+            <fieldset>
+                <legend>Qual Horário deseja ser atendido?</legend>
+                <select name="" id="" class="formulario-input">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+
+            <input type="submit" value="Cadastrar" class="botao-enviar">
+
+        </form>
+
+
+        <div class="tabela-funcionamento">
+            
+                <p class="titulo-funcionamento">Horário de funcionamento</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horários</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <div>
+            <img src="imagens/logo-branco.png" alt="logo da pagina">
+            <p class="copyright"> &copy Rodrigo Barber Shop</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

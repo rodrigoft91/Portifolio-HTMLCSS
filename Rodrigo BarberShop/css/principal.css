@@ -1,0 +1,267 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header {
+
+    background: url(../imagens/bg-topo.png);
+    padding: 20px;
+
+}
+
+.caixa {
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 10px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover {
+
+    color: #FFFFFF;
+
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+
+.banner {
+
+    width: 100%;
+    height: 300px;
+    margin: 0.5em 0;
+    border-radius: 10px;
+
+}
+
+.banner:hover {
+
+    box-shadow: 5px 5px 20px #000000;
+    transition: 400ms;
+}
+
+.apresentacao-sobre {
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.foto-utensilios {
+
+    width: 150px;
+    float: left;
+    margin: 0 15px 0 0;
+    border-radius: 5px;
+
+}
+
+
+.titulo-principal {
+
+    text-align: center;
+    font-size: 30pt;
+    padding: 1em 0 1em;
+    font-weight: bold;
+
+}
+
+.missao-mensagem {
+
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+.missao {
+
+    text-align: justify;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.sessao-beneficios {
+
+    width: 800px;
+    clear: left;
+    margin: 1em auto 2em;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.titulo-beneficio {
+
+    text-align: center;
+    font-size: 30pt;
+    padding: 1em 0 1em;
+    font-weight: bold;
+
+}
+
+
+.lista-beneficios {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 1.2em;
+    margin: 2em 0 0;
+    text-align: center;
+
+}
+
+.foto-beneficios {
+
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+.foto-beneficios:hover {
+
+    box-shadow: 5px 5px 20px #000000;
+    transition: 400ms;
+}
+
+.video-barbearia {
+
+    width: 560px;
+    margin: 2em auto;
+
+}
+
+
+footer {
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 15px 0;
+
+}
+
+.copyright {
+
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .apresentacao-sobre,
+    .sessao-beneficios {
+
+        width: auto;
+
+    }
+
+    h1 {
+
+        text-align: center;
+
+    }
+
+    nav {
+        
+        position: static;
+        margin: 15px 0 0;
+    }
+
+    .missao{
+
+        font-size: 15px;
+        padding: 10px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+
+    .foto-beneficios,
+    .lista-beneficios {
+
+        width: 100%;
+        margin: 10px 0 15px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .caixa,
+    .apresentacao-sobre,
+    .sessao-beneficios {
+
+        width: auto;
+
+    }
+
+    h1 {
+        text-align: center;
+
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+
+    .missao,.missao-mensagem {
+
+        font-size: 20px;
+        padding: 10px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+
+    .foto-utensilios {
+
+        margin: 10px 15px 0 10px ;
+
+    }
+
+    .foto-beneficios,
+    .lista-beneficios {
+
+        width: 100%;
+    }
+
+
+}

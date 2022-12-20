@@ -1,0 +1,427 @@
+body {
+    width: 100vw;
+    font-family: 'inter', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.logo__optimus {
+    width: 24px;
+    height: 24px;
+}
+
+.texto__logo {}
+
+.navegacao-cabecalho {
+
+    width: 600px;
+    justify-self: flex-end;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #667085;
+}
+
+.cabecalho__link {
+
+    padding-right: 25px;
+
+}
+
+.cabecalho__link:hover {
+
+    color: #8E2424;
+    border-left: 2px solid #8E2424;
+    padding-left: 3px;
+}
+
+.botoes {
+
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #667085;
+    font-weight: 400;
+
+}
+
+.botao__cadastro {
+
+
+    padding-right: 30px;
+
+}
+
+.botao__cadastro--cadastrar {
+
+    border: 1px solid #8E2424;
+    background-color: #8E2424;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.botao__cadastro--cadastrar:hover {
+
+    background-color: #8E2424;
+    color: #FFFFFF;
+    opacity: .9;
+    transition: .25s;
+
+}
+
+.sobrenos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.sobrenos {}
+
+.titulo__sobrenos {
+
+    color: #8E2424;
+    font-size: 1.3rem;
+    font-weight: 1000;
+    padding: 2rem 0 0 0;
+
+}
+
+.titulo__somosdiferentes {
+
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -.1rem;
+    padding: 3.5rem 0;
+    color: #101828;
+    font-style: normal;
+}
+
+.texto__sobrenos {
+
+    font-size: 1.2rem;
+    width: 780px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 2rem;
+
+}
+
+.informacoes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 288px;
+
+
+
+}
+
+.informacoes__cartao {
+
+    border: 1px solid transparent;
+    padding: 2.5rem;
+    width: 250px;
+    display: flex;
+
+}
+
+.informacoes__destaque {
+
+    color: #8E2424;
+    font-weight: 900;
+    font-size: 4.5em;
+
+}
+
+.informacoes__titulo {
+
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.informacoes__texto {
+
+    font-size: 1.1rem;
+    width: 300px;
+    color: #667085;
+
+
+}
+
+.recrutamento {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0 0 0;
+
+}
+
+.vagas__alerta {
+
+    font-size: .8rem;
+    color: #8E2424;
+    border: 1px solid transparent;
+    background-color: #d7d9dd;
+    border-radius: 15px;
+    padding: .3rem .3rem;
+
+}
+
+.vagas__titulo {
+
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 2rem 0;
+
+}
+
+.vagas__texto {
+
+    padding: 0 0 2.5rem;
+    font-size: 1rem;
+    color: #667085;
+
+}
+
+.vagas__foto {
+
+    width: 1276px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+.vagas {
+
+    width: 768px;
+    margin: 0 auto;
+    padding: 3rem 0 3rem;
+
+}
+
+.descricao__vagas {
+
+    display: flex;
+    justify-content: start;
+    width: 768px;
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+}
+
+.titulo__vagas {
+
+    color: #101828;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.descricao__vagas {
+
+    margin: 1.7rem 0;
+    padding: 3rem;
+
+}
+
+.descricao__funcao {
+
+    padding: 0 0 1.5rem;
+    color: #101828;
+    font-size: 1rem;
+    font-weight: bold;
+
+
+}
+
+.extras {
+    display: flex;
+    gap: 1rem;
+    font-size: .9rem;
+    color: #667085;
+
+}
+
+.caixa-opinioes {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.opinioes {
+
+    background-color: #fdf8f8;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 90vw;
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3rem;
+
+}
+
+.titulo__opinioes {
+
+
+    font-size: .8rem;
+    font-weight: 700;
+    color: #8E2424;
+    padding: 4rem 0 0;
+
+}
+
+.texto__opinioes {
+
+    font-size: 1.8rem;
+    width: 70vw;
+    text-align: center;
+
+}
+
+.opinioes__colaborador {
+
+    font-weight: 500;
+}
+
+.opinioes__funcao {
+
+    font-size: .7rem;
+    color: #667085;
+    padding: 0 0 4rem;
+
+}
+
+.foto__opinioes {
+    width: 56px;
+    height: 56px;
+
+}
+
+.oportunidades{
+
+    width: 100vw;    
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+fieldset{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.titulo__oportunidades{
+
+    padding: 5rem 0 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+.texto__oportunidades{
+
+    font-size: 1rem;
+    color: #667085;
+
+}
+
+.formulario__email{
+
+    width: 25vw;
+    padding: .5rem;
+    border: 1px solid #667085;
+    border-radius: 5px;
+
+}
+
+.botao__cadastrar{
+
+    border: 1px solid #8E2424;
+    background-color: #8E2424;
+    padding: .8rem 2rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.copyright{
+
+    font-size: 1rem;
+    color: #667085;
+    padding: 0 0 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .texto__sobrenos {
+        width: auto;
+    }
+
+    .cabecalho {
+
+        width: auto;
+
+    }
+
+    .navegacao-cabecalho {
+        padding: auto;
+    }
+
+    .vagas__foto {
+
+        display: none;
+    }
+
+    .descricao__vagas {
+
+        width: auto;
+    }
+
+    .vagas {
+
+        width: 100vw;
+    }
+
+    .recrutamento {
+        display: none;
+    }
+}
