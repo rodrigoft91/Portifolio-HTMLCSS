@@ -159,3 +159,69 @@ body {
     transition: .25s;
     padding: 0 1rem;
 }
+
+.redessociais{
+
+    display: flex;
+    gap: 2rem;
+    color: #FFFFFF;
+
+
+}
+
+.icones{
+
+    font-size: 1.5rem;
+
+}
+
+.icones:hover{
+
+    transform: rotate(1turn);
+    transition: 1s;
+}
+
+.rodape{
+    color: #535654;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 4rem;
+}
+
+.menu__rodape{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+
+}
+
+.botao__rodape{
+
+    border: 1px solid #535654;
+    border-radius: 5px;
+    width: 6vw;
+    text-align: center;
+    padding: 0.4rem ;
+
+}
+
+.botao__rodape:hover{
+
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+
+}
+
+.rodape-info{
+    padding-top: 2.8rem;
+}
+
+footer a:hover{
+
+    color: #FFFFFF;
+
+}
